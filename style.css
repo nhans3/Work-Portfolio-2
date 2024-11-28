@@ -1,0 +1,49 @@
+html {
+  background: url(img/greenbg.jpg) repeat;
+}
+
+body {
+  background-color: white;
+  margin: 0px auto;
+  width: 600px;
+  padding: 20px 50px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+td {
+  border: 2px solid black;
+  padding: 10px;
+}
+
+td > p {
+  font-size: 10px;
+  font-family: "Sofadi One", system-ui;
+  font-weight: bold;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+img:hover {
+  opacity: 0.7;
+  transition: opacity 0.5s;
+}
+
+#header {
+  border: 2px solid rgb(29, 65, 0);
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: rgb(221, 255, 157);
+  font-family: "Sofadi One", system-ui;
+}
